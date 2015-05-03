@@ -29,3 +29,5 @@ install the scala project, then use the gradle tool to setup the eclipse project
 . Remember to edit in the scala perspective
 
 NOTE THAT I'VE ONLY TESTED THIS ON MAC (OSX 10.10). DUNNO HOW IT WILL WORK ON A WINDOWS MACHINE
+
+if you want to see the simulator in action then goto https://youtu.be/aXc93Iysu7Q
