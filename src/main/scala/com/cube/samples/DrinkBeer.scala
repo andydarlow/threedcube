@@ -1,4 +1,4 @@
-package com.samples
+package com.cube.samples
 import com.cube.application.engine.CubeEngine
 import com.cube.model._
 import com.cube.model.animationdsl._
