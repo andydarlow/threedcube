@@ -1,4 +1,4 @@
-3D LED cube
+3D LED cube Simulator
 ==========
 
 3d graphical view of a led cube. Basically, a 3d version of this...
