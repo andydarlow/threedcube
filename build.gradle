@@ -1,0 +1,25 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+repositories {
+    	mavenCentral() 
+		// the java 3d files were found after a lot of
+		// trawling throw JOGAMP. They are designed to
+		// work with JOGL. Coudn't find them in MAVEN
+    	flatDir {
+      			 dirs 'lib'
+   		}
+}
+ 
+dependencies {
+  compile 'org.scala-lang:scala-library:2.11.5'
+  compile 'org.jogamp.jogl:jogl-all-main:2.2.0'
+  compile "org.jogamp.gluegen:gluegen-rt-main:2.2.0"
+  compile "org.jogamp.gluegen:gluegen-rt:2.2.0" 
+  compile name: 'j3dcore'
+  compile name: 'j3dutils'
+  compile name: 'vecmath'
+}
+
+ mainClassName = "com.cube.samples.DrinkBeer"
